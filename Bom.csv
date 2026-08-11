@@ -1,0 +1,25 @@
+Item,Qty,Designator,Component Description,Package / Footprint,Suggested Manufacturer Part Number (MPN),LCSC Part # (Ref),Unit Cost ($),Ext. Cost ($)
+1,1,U1,"32-bit RISC-V Microcontroller (48MHz, 16KB Flash)",TSSOP-20,WCH CH32V003F4U6,C5285913,0.150,0.150
+2,1,U2,Dual General Purpose Operational Amplifier,SOIC-8,LM358G-SO8-R / TI LM358,C7906,0.060,0.060
+3,1,U3,USB-to-UART Bridge IC,SOP-8,WCH CH340N,C2970034,0.180,0.180
+4,1,U4,3.3V Low-Dropout (LDO) Voltage Regulator (300mA),SOT-23-5,Diodes Inc. AP2112K-3.3TRG1,C51118,0.080,0.080
+5,16,D1–D16,Common-Anode RGB LEDs,0603 (1608 Metric),Everlight EAST1608RGBB2,C2843781,0.020,0.320
+6,4,D17–D20,PIN Diodes (RF Commutating Switches),SOT-23,NXP BAP64-02 / BAV99,C2098,0.010,0.040
+7,1,D21,Dual Common Cathode Schottky Diode (Power OR-ing),SOT-23,Diodes Inc. BAT54C,C2296,0.020,0.020
+8,1,Q1,NPN General Purpose Transistor (Buzzer Driver),SOT-23,Jiangsu Changjing S8050,C2146,0.010,0.010
+9,1,BZ1,"Passive Magnetic Buzzer (3.3V, 4kHz / PWM)",SMD 8.5x8.5mm,Changzhou TMB09A03,C96338,0.150,0.150
+10,1,RVR1,10k$\Omega$ Logarithmic Thumbwheel Potentiometer,SMD Edge Wheel,Bourns / Generic PJ-320 B103,C115456,0.100,0.100
+11,1,SW1,Momentary Tactile Push Button,SMD 3x4x2.5mm,TS-1187A,C318884,0.020,0.020
+12,5,J1–J5,SMA Female Edge Launch Connectors (1.6mm PCB),Edge Launch,RF Solutions SMA-EDGE-1.6,C168817,0.170,0.850
+13,1,J6,3.5mm Stereo Audio AUX Jack (HT Audio In),SMD 3.5mm,PJ-320A,C14418,0.100,0.100
+14,1,J7,"USB-C Female Receptacle (Power / Program, 16-Pin)",SMD Type-C,Korean Hroparts TYPE-C-31-M-12,C165948,0.080,0.080
+15,1,J8,2x3 Shrouded Male Header (SAO v1.69bis / v4.2 Port),Through-Hole 2.54mm,Generic 2x3 Male Pin Header,C22542,0.040,0.040
+16,8,R1–R8,150$\Omega$ Resistors (0603),0603,Generic,C2286,0.002,0.016
+17,8,R9–R16,330$\Omega$ Resistors (0603),0603,Generic,C17630,0.002,0.016
+18,6,R17–R22,10k$\Omega$ Resistors (0603),0603,Generic,C25804,0.002,0.012
+19,2,R23–R24,5.1k$\Omega$ CC Pull-down Resistors (USB-C),0603,Generic,C23186,0.002,0.004
+20,1,R25,1k$\Omega$ Base Resistor (Transistor Driver),0603,Generic,C21190,0.002,0.002
+21,4,C1–C4,100nF (0.1$\mu$F) Decoupling Capacitors,0603,Generic,C14663,0.003,0.012
+22,3,C5–C7,10$\mu$F Ceramic Capacitors (LDO & Audio Block),0603,Generic,C19702,0.005,0.015
+23,1,PCB,"Double-Sided FR4 PCB (∼45×45mm, 2-Layer)",FR4,JLCPCB / PCBWay Tier 1,Custom,0.150,0.150
+TOTAL,73,,,,,,,~$2.466
